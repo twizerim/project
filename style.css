@@ -80,7 +80,6 @@ li img{
 }
 
 .text-contain{
-   
     padding: 2rem;
 }
 .text-contain h1{
@@ -91,20 +90,26 @@ li img{
     font-size: 2rem;
     font-weight: 600;
 }
-.text-contain span{
-    margin-top: 2rem;
-    font-size: 1.4rem;
+.buet-paragraph{
+      padding: 2rem 0rem;
+}
+.buet-paragraph span{
+    font-size: 1.5rem;
 }
 .cont{
+    
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 2rem;
-    padding: 2rem;
+    padding: 2rem 0rem;
+}
+.cont span{
+    font-size: 1.7rem;
 }
 .btm{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     gap: 2rem;
 }
@@ -134,7 +139,6 @@ button:hover{
         width: 100%;
     }
     .text-contain{
-        /* text-align: center; */
         width: 100%;
     }
 
