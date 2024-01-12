@@ -117,3 +117,27 @@ button{
 button:hover{
     background-color: rgb(39, 107, 163);
 }
+
+@media(max-width:637px){
+    .contain{
+        display: flex;
+        flex-direction: column;
+    }
+    .photo-contain{
+        align-items: center;
+        padding: 2rem;
+         width: 80%;
+         margin-left: 2rem;
+        
+    }
+    .photo img{
+        width: 100%;
+    }
+    .text-contain{
+        /* text-align: center; */
+        width: 100%;
+    }
+
+        
+    
+}
