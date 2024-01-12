@@ -55,7 +55,12 @@ a{
 }
 .photo img{
     border-radius: 2rem;
+    cursor: pointer;
+    transition: all;
     
+}
+.photo img:hover{
+    transform: translate(4px,-4px);
 }
 
 .list-phot{
@@ -105,4 +110,7 @@ button{
     padding: 0.5rem 2rem;
     border-radius: 0.4rem;
     background-color: rgb(0, 140, 255);
+}
+button:hover{
+    background-color: rgb(39, 107, 163);
 }
